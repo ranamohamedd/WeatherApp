@@ -1,0 +1,148 @@
+body{
+  background-color: #1E202B;
+  
+}
+.navbar .nav-item a{
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 2.5rem;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.navbar .navbar-brand .tagline{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #BFC1AA;
+}
+.navbar img{
+  width: 5rem;
+  
+}
+.navbar .nav-item .active{
+  color: #009AD8;
+  border: solid;
+  border-radius: 2rem;
+  border-color: #009AD8;
+  width: 6.5rem;
+  height: 2.7rem;
+  
+}
+/* .navbar .nav-item{
+  transition: all 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav-item:hover{
+  color: #009AD8;
+  border: solid;
+  border-radius: 2rem;
+  border-color: #009AD8;
+  width: 5rem;
+  height: 2.7rem;
+
+} */
+.country .input-group{
+  height: 3.5rem;
+  
+  top: 20%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  
+}
+.country .input-group .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.5rem;
+  height: 3rem;
+  color: white;
+  background-color: #009AD8;
+  font-size: 1.1rem;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border: none;
+}
+.country .input-group #citySearch{
+  background-color: #1E202B;
+  border-radius: 8rem;
+  border: none;
+  position: relative;
+  font-size: 1rem;
+  color: white;
+}
+.forecast-table{
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.forecast-table .forecast-header {
+  background-color: #323544;
+  
+  
+  
+}
+
+.forecast {
+  height: 23rem;
+  
+}
+.forecast-header{
+  font-size: 1rem;
+  color: #BFC1C8;
+  height: 2.2rem;
+ 
+}
+#dark{
+  background-color: #2D303D;
+}
+#bgDark{
+  background-color: #323544;
+  color: white;
+}
+#light{
+  background-color: #222530;
+}
+#bgLight{
+  background-color: #262936;
+  color: white;
+}
+#degree {
+  font-size: 5rem;
+  font-weight: bold;
+  
+}
+#super{
+  font-size: 3rem;
+}
+.todayData img{
+  width: 1.5rem;
+}
+.forecast-content span{
+  color: #BFC1C8;
+}
+.forecast-content span img{
+  width: 5%;
+}
+.degree {
+  font-weight: bold;
+  font-size: 1.4rem;
+
+}
+.custom{
+  color: #009AD8;
+}
+.min{
+  color:#BFC1C8;
+}
+
+

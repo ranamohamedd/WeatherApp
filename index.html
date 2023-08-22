@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Start Nav Section-->
+    <nav class="navbar my-5 navbar-expand-lg  navbar-light bg-transparent">
+        <div class="container">
+            <img src="imgs/logo@2x.png" alt="" class="img-fluid me-3">
+          <a class="navbar-brand text-white" href="#">Weather <p class="tagline">tagline goes here</p></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link active d-flex align-items-center justify-content-center" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- End Nav Section-->
+
+    <div class="country my-5 py-5 position-relative ">
+        <img src="imgs/banner.png" alt="" class="w-100  ">
+        <div class="input-group mb-3 position-absolute container  ">
+          <input id="citySearch" type="text" class="form-control " placeholder="Find Your Location..." aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary rounded-5 d-flex align-items-center justify-content-center mt-1 mb-1 me-3" type="button" id="button-addon2">Find</button>
+        </div>
+    </div>
+
+    <!-- Start Forecast Section-->
+
+    <div class="forecast-table container">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div id="bgDark" class="today forecast  rounded-2 ">
+              <div  id="dark" class="forecast-header rounded-top py-1 ps-2 pe-2 mb-3 d-flex align-items-start justify-content-between" id="today">
+                <div id="today">Saturday</div>
+                <div id="today-date" ><span id="dayNumber">19</span> <span id="month">August</span></div>
+              </div>
+              <div class="forecast-content ps-3" id="current">
+                <div id="city" >Alexandria</div>
+                <span></span>
+                <div class=" text-white"><span id="degree" class="text-white">28</span> <span id="super" class="text-white"><sup class=""> o</sup>C</span> </div>
+                <div  class=" d-flex">
+                  <img id="today-icon" src="imgs/113.png" alt="" >
+                </div>
+                <div id="today-condition" class=" mb-3">Sunny</div>
+                <div class="todayData d-flex">
+                  <div  class="me-4"><img src="imgs/icon-umberella@2x.png" alt=""> <span id="rain">20%</span></div>
+                  <div class="me-4"><img src="imgs/icon-wind@2x.png" alt=""> <span id="wind">18km/h</span></div>
+                <div ><img src="imgs/icon-compass@2x.png" alt=""> <span id="direction">East</span></div>
+
+                </div>
+                
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div id="bgLight" class="forecast text-center rounded-2 ">
+              <div id="light" class="forecast-header rounded-top  py-1 ps-2 pe-2 mb-3 d-flex align-items-center justify-content-center" id="today">
+                <div class="day">Sunday</div>
+              </div>
+              <div  class="forecast-content" id="current">
+                <div >
+                  <img class="icon" src="imgs/113.png" alt="">
+                </div>
+                <div  class=" mt-5 mb-1"><span  class="degree text-white">28</span> <span  class=" text-white"><sup class=""> o</sup>C</span> </div>
+                 <div class="min-degree"><span><small class="min">23</small></span><span><sup> o</sup>C</span></div>
+                <div class="custom py-4">Sunny</div>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div id="bgDark" class=" forecast text-center  rounded-2">
+              <div id="dark" class="forecast-header rounded-top py-1 ps-2 pe-2 mb-3 d-flex align-items-center justify-content-center" id="today">
+                <div class="day">Monday</div>
+              </div>
+              <div class="forecast-content" id="current">
+                <div >
+                  <img class="icon" src="imgs/113.png" alt="">
+                </div>
+                <div  class=" mt-5 mb-1"><span  class="degree text-white">28</span> <span  class=" text-white"><sup class=""> o</sup>C</span> </div>
+                <div class="min-degree"><span><small class="min">23</small></span><span><sup> o</sup>C</span></div>
+                <div class="custom py-4">Sunny</div>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Forecast Section-->
+
+    
+    
+    
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
